@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": "/2YSDK9RZq4Cxl3NTXtqFTp3BDPU.jpg", "genre_ids": [16], "id": 507041, "original_language": "cs", "original_title": "Prvn\u00ed sn\u00edh", "overview": "", "popularity": 1.4, "poster_path": "/5VZp8BnTJ0rTiFvNumY9qDWYjzU.jpg", "release_date": "2016-02-14", "title": "Prvn\u00ed sn\u00edh", "video": false, "vote_average": 0, "vote_count": 0}

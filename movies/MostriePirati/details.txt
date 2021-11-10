@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": "/geBxPHGGFtScSRvwLPpNEVRZ9dy.jpg", "genre_ids": [16, 12, 14], "id": 812633, "original_language": "it", "original_title": "Mostri e Pirati", "overview": "", "popularity": 1.4, "poster_path": "/sP1OfTbPoLgHrtI3nVs7coX4kuL.jpg", "release_date": "2008-11-01", "title": "Mostri e Pirati", "video": false, "vote_average": 0, "vote_count": 0}

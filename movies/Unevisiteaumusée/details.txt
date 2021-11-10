@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": "/j2WU0EJiRL7O1KTgZI5xJsLXeUQ.jpg", "genre_ids": [16], "id": 769541, "original_language": "fr", "original_title": "Une visite au mus\u00e9e", "overview": "", "popularity": 0.993, "poster_path": "/2wOMlfxLJ0wXMcz2iGqk1QJYO4C.jpg", "release_date": "2020-01-01", "title": "Une visite au mus\u00e9e", "video": false, "vote_average": 7, "vote_count": 1}

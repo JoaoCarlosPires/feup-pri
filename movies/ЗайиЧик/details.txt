@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": null, "genre_ids": [16], "id": 448009, "original_language": "ru", "original_title": "\u0417\u0430\u0439 \u0438 \u0427\u0438\u043a", "overview": "", "popularity": 0.84, "poster_path": "/vo6yOYhBbDgyEwvhbAqeDAneSGe.jpg", "release_date": "1952-03-20", "title": "Zai and Chik", "video": false, "vote_average": 0, "vote_count": 0}

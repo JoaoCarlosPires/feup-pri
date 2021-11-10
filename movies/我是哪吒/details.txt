@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": "/gS4RrHZpz6yksjubDJLGYIVHapC.jpg", "genre_ids": [10751, 14, 16], "id": 474139, "original_language": "zh", "original_title": "\u6211\u662f\u54ea\u5412", "overview": "", "popularity": 4.113, "poster_path": "/b0BKVqQ25YenrJQkwGiscrmFQah.jpg", "release_date": "2016-10-01", "title": "I Am Nezha", "video": false, "vote_average": 7.7, "vote_count": 3}

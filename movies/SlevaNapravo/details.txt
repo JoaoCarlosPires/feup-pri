@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": null, "genre_ids": [16], "id": 323611, "original_language": "ru", "original_title": "Sleva Napravo", "overview": "Several sketches about surrealism animation", "popularity": 0.96, "poster_path": "/553mcGmnGL9SM7MX7Ab8sFEjfTh.jpg", "release_date": "1989-02-05", "title": "From Left to Right", "video": false, "vote_average": 6.5, "vote_count": 4}

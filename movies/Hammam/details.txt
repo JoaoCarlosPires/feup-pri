@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": null, "genre_ids": [16], "id": 450893, "original_language": "xx", "original_title": "Hammam", "overview": "Story of a two woman who goes to the hammam for the first time.", "popularity": 0.87, "poster_path": "/doZUregbzztB3aMtA07Mjun0WlF.jpg", "release_date": "1991-01-01", "title": "Hammam", "video": false, "vote_average": 6, "vote_count": 1}

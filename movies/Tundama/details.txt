@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": "/aENJedt2hfMU94Qg9NF6qtRjfjQ.jpg", "genre_ids": [16], "id": 764925, "original_language": "es", "original_title": "Tundama", "overview": "", "popularity": 1.952, "poster_path": "/51j6bhTHhpT3CrEnalvc58A4ahj.jpg", "release_date": "2020-10-09", "title": "Tundama", "video": false, "vote_average": 7.5, "vote_count": 2}

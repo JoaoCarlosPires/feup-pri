@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": null, "genre_ids": [16], "id": 146062, "original_language": "en", "original_title": "Jungle Drums", "overview": "Superman discovers a secret Nazi base in the jungle.", "popularity": 1.4, "poster_path": "/wrxihuHaLQ5soRtpDA6jNgIzpIa.jpg", "release_date": "1943-03-26", "title": "Jungle Drums", "video": false, "vote_average": 6.3, "vote_count": 18}

@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": null, "genre_ids": [12, 16, 10751], "id": 316459, "original_language": "nl", "original_title": "Dikkie Dik - Het eerste DVD-boek", "overview": "", "popularity": 0.843, "poster_path": null, "release_date": "2009-01-01", "title": "Dikkie Dik - Het eerste DVD-boek", "video": false, "vote_average": 0, "vote_count": 0}

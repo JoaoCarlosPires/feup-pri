@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": "/lbvkcVB80vZbb6upv28lq7xVZVd.jpg", "genre_ids": [16], "id": 71904, "original_language": "fr", "original_title": "Allez raconte\u00a0!", "overview": "", "popularity": 1.284, "poster_path": "/oAIXKBGnqcAwn31VFxKsxYhT3n2.jpg", "release_date": "2010-10-20", "title": "The Storytelling Show", "video": false, "vote_average": 5.8, "vote_count": 4}

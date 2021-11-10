@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": null, "genre_ids": [16], "id": 871041, "original_language": "ru", "original_title": "\u0412\u0430\u043b\u0435\u043d\u043a\u0438 \u0411\u0430\u0436\u043e\u0432\u0430", "overview": "", "popularity": 2.744, "poster_path": null, "release_date": "2021-11-01", "title": "Bazhov's Valenki", "video": false, "vote_average": 0, "vote_count": 0}

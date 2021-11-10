@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": "/eR07Y3epMLVadKcAeQUX6HYpdPd.jpg", "genre_ids": [16, 28], "id": 834802, "original_language": "en", "original_title": "Ben 10: Ben 10,010", "overview": "", "popularity": 18.276, "poster_path": "/tol9RtdhlFOS3SKyxtGS7o3jaXb.jpg", "release_date": "2021-04-02", "title": "Ben 10: Ben 10,010", "video": false, "vote_average": 6.4, "vote_count": 59}

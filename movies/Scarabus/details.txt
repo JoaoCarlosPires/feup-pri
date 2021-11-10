@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": null, "genre_ids": [16], "id": 325621, "original_language": "en", "original_title": "Scarabus", "overview": "", "popularity": 0.96, "poster_path": null, "release_date": "1971-07-01", "title": "Scarabus", "video": false, "vote_average": 7.3, "vote_count": 4}

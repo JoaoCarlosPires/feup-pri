@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": null, "genre_ids": [16, 878], "id": 154706, "original_language": "en", "original_title": "Aero-Troopers: The Nemeclous Crusade", "overview": "", "popularity": 3.128, "poster_path": "/wBDiiGvHV7mZafvH0d3DSLki2qZ.jpg", "release_date": "2003-01-01", "title": "Aero-Troopers: The Nemeclous Crusade", "video": false, "vote_average": 0, "vote_count": 0}

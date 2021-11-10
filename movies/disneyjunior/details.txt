@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": "/ixx6BxU4lmniTl61FEpYrMktSAS.jpg", "genre_ids": [16], "id": 521704, "original_language": "fr", "original_title": "disney junior", "overview": "", "popularity": 0.84, "poster_path": "/4xQXJKoEjNWGGLSWxn2pxmogubr.jpg", "release_date": "2015-05-01", "title": "disney junior", "video": false, "vote_average": 0, "vote_count": 0}

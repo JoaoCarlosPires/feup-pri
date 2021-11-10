@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": null, "genre_ids": [16], "id": 819450, "original_language": "en", "original_title": "My Sweet Prince Charming", "overview": "Who is your Prince Charming?", "popularity": 1.4, "poster_path": "/f8ZtSLiUcFXHYVgSuhWULC8qPSr.jpg", "release_date": "2000-08-17", "title": "My Sweet Prince Charming", "video": false, "vote_average": 0, "vote_count": 0}

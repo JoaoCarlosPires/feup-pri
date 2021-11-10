@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": null, "genre_ids": [16], "id": 869746, "original_language": "es", "original_title": "Good Night Mr. Ted", "overview": "", "popularity": 0.868, "poster_path": "/sRJtCWIGpjfDcBudyTHGFUKtBBk.jpg", "release_date": "2021-09-01", "title": "Good Night Mr. Ted", "video": false, "vote_average": 0, "vote_count": 0}

@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": null, "genre_ids": [16], "id": 418916, "original_language": "ja", "original_title": "Beruseruku", "overview": "", "popularity": 0.849, "poster_path": null, "release_date": "2017-02-18", "title": "Beruseruku", "video": false, "vote_average": 6.5, "vote_count": 15}

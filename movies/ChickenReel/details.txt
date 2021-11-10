@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": null, "genre_ids": [16], "id": 727049, "original_language": "en", "original_title": "Chicken Reel", "overview": "An Oswald the Lucky Rabbit cartoon.", "popularity": 1.341, "poster_path": "/ubU04KzQkXn7vNiIhcF28J98HKc.jpg", "release_date": "1934-01-01", "title": "Chicken Reel", "video": false, "vote_average": 0, "vote_count": 0}

@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": "/7j5Gq6FaEI3WTzXiemt6uYmRsUo.jpg", "genre_ids": [16], "id": 502263, "original_language": "ja", "original_title": "Mitsubachi M\u00e2ya no B\u00f4ken", "overview": "", "popularity": 1.176, "poster_path": "/jhSWzNBoVvkpPGF6rAUgd2OtyYP.jpg", "release_date": "1977-12-15", "title": "Maya the Bee", "video": false, "vote_average": 6.5, "vote_count": 2}

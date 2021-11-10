@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": null, "genre_ids": [16], "id": 774506, "original_language": "es", "original_title": "A Diestro y Siniestro", "overview": "", "popularity": 0.894, "poster_path": null, "release_date": "", "title": "Right and Left", "video": false, "vote_average": 0, "vote_count": 0}

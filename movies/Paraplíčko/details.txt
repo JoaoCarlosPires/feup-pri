@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": null, "genre_ids": [16], "id": 92733, "original_language": "cs", "original_title": "Parapl\u00ed\u010dko", "overview": "No overview found.", "popularity": 1.128, "poster_path": "/mF7zcHbzxc0XiOqpUcEwB6tsNpq.jpg", "release_date": "1957-09-13", "title": "Parapl\u00ed\u010dko", "video": false, "vote_average": 0, "vote_count": 0}

@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": null, "genre_ids": [16], "id": 86635, "original_language": "en", "original_title": "Tongari Boushi no Memole", "overview": "No overview found.", "popularity": 1.4, "poster_path": null, "release_date": "1985-07-21", "title": "Memoru in the Pointed Hat: Marielle's Jewelbox", "video": false, "vote_average": 6, "vote_count": 1}

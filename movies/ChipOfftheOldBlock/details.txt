@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": null, "genre_ids": [16], "id": 356349, "original_language": "en", "original_title": "Chip Off the Old Block", "overview": "Dud is a disappointment to his parents.", "popularity": 0.84, "poster_path": null, "release_date": "1919-12-31", "title": "Chip Off the Old Block", "video": false, "vote_average": 0, "vote_count": 0}

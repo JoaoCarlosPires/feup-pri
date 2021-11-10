@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": "/tOVnRpN83l0kYiC2DwLNNrVKfqV.jpg", "genre_ids": [12, 16, 10751], "id": 220154, "original_language": "fr", "original_title": "The King's Beard", "overview": "", "popularity": 2.134, "poster_path": "/6GyGj81V0ZqT9mbmYWfobQbn0gJ.jpg", "release_date": "2002-10-02", "title": "The King's Beard", "video": false, "vote_average": 5.7, "vote_count": 3}

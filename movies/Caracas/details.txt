@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": null, "genre_ids": [12, 16], "id": 346966, "original_language": "en", "original_title": "Caracas", "overview": "A marine adventure on the persecution of dreams becomes a pretext to play with art forms.", "popularity": 1.242, "poster_path": null, "release_date": "2006-06-30", "title": "Caracas", "video": false, "vote_average": 2, "vote_count": 1}
