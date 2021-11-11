@@ -43,6 +43,4 @@ for i in range (1, number_pages + 1):
                 
             # ToDo: search for data in other APIs using the title and release_date
             # ToDo: save then the results in a new folder and in new files (c.f. above) 
-            
-            
-        
+
