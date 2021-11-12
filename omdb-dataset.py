@@ -16,8 +16,6 @@ def getSafeString(s):
 
 def getOmdbMovie(movie_folder_path):
 
-    #example: getOmdbMovie("Projeto/movies/DespicableMe")
-
     detailsDirectory = movie_folder_path + "/details.txt"
     file_exists = os.path.exists(detailsDirectory)
 
@@ -30,14 +28,9 @@ def getOmdbMovie(movie_folder_path):
         movieTitle = jsonObj['original_title']
 
 
-
-
         if 'release_date' not in jsonObj:
             print("ERROR: " + movieTitle + " has no release_date available")
         
-
-        #elif not is_ascii(movieTitle):
-        #    print("ERROR: " + movieTitle + " is not ascii, cannot be looked on OMDb")
         
         else:
 
@@ -81,18 +74,13 @@ def getOmdbMovie(movie_folder_path):
             
             #else:
                 #print("OMDb file already created")
-
-
-            
             
 
+#example 
 #getOmdbMovie("Projeto/movies/DespicableMe")
 
 rootdir = "Projeto/movies"
 my_list = os.listdir(rootdir)
-
-
-
 
 
 
