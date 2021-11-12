@@ -35,34 +35,41 @@ def getOmdbMovie(movie_folder_path):
             movieDate = jsonObj['release_date']
             rawFile.close()
 
-            formattedString = "http://www.omdbapi.com/" + "?apikey=f2fa9863&t=" + movieTitle.replace(" ", "+") + "&y=" + movieDate[:4] + "&plot=full"
+            #keys = f2fa9863 323c392a
+            formattedString = "http://www.omdbapi.com/" + "?apikey=323c392a&t=" + movieTitle.replace(" ", "+") + "&y=" + movieDate[:4] + "&plot=full"
 
-            with urllib.request.urlopen(formattedString) as url:
-                page = json.loads(url.read().decode())
-                if(page['Response']=="True"):
-                    #adicionar num ficheiro novo------------------------------
+
+            if not os.path.exists(movie_folder_path + "/omdbContent.txt"):
+
+                with urllib.request.urlopen(formattedString) as url:
+                    page = json.loads(url.read().decode())
+                    if(page['Response']=="True"):
+                        #adicionar num ficheiro novo------------------------------
+                        
+                        with open(movie_folder_path + "/omdbContent.txt","w") as file:
+                            json.dump(page, file)
+                            print("SUCCESS - Movie " + movieTitle + " OMDb log was updated")
+
+                        # -----------------------------------------
+
+
+                        #se for para adicionar no mesmo ficheiro------------------------------
+
+                        #f = open(detailsDirectory, 'r+')
+                        #text = f.read()
+                        #text = '['+text+','+json.dumps(page)+']'
                     
-                    with open(movie_folder_path + "/omdbContent.txt","w") as file:
-                        json.dump(page, file)
-                        print("SUCCESS - Movie " + movieTitle + " OMDb log was updated")
+                        #f.seek(0)
+                        #f.write(text)
+                        #f.truncate()
+                        #f.close()
 
-                    # -----------------------------------------
-
-
-                    #se for para adicionar no mesmo ficheiro------------------------------
-
-                    #f = open(detailsDirectory, 'r+')
-                    #text = f.read()
-                    #text = '['+text+','+json.dumps(page)+']'
-                
-                    #f.seek(0)
-                    #f.write(text)
-                    #f.truncate()
-                    #f.close()
-
-                    # -----------------------------------------
-                else:
-                    print("ERROR: Movie " + movieTitle + " could not be found on OMDb")
+                        # -----------------------------------------
+                    else:
+                        print("ERROR: Movie " + movieTitle + " could not be found on OMDb or API reached limit")
+            
+            else:
+                print("OMDb file already created")
 
 
             
