@@ -35,8 +35,9 @@ def getOmdbMovie(movie_folder_path):
             movieDate = jsonObj['release_date']
             rawFile.close()
 
-            #keys = f2fa9863 323c392a
-            formattedString = "http://www.omdbapi.com/" + "?apikey=323c392a&t=" + movieTitle.replace(" ", "+") + "&y=" + movieDate[:4] + "&plot=full"
+            #keys = f2fa9863 323c392a 946648df d9437efe d097fef5
+
+            formattedString = "http://www.omdbapi.com/" + "?apikey=d097fef5&t=" + movieTitle.replace(" ", "+") + "&y=" + movieDate[:4] + "&plot=full"
 
 
             if not os.path.exists(movie_folder_path + "/omdbContent.txt"):
@@ -44,6 +45,7 @@ def getOmdbMovie(movie_folder_path):
                 with urllib.request.urlopen(formattedString) as url:
                     page = json.loads(url.read().decode())
                     if(page['Response']=="True"):
+                        
                         #adicionar num ficheiro novo------------------------------
                         
                         with open(movie_folder_path + "/omdbContent.txt","w") as file:
@@ -68,8 +70,8 @@ def getOmdbMovie(movie_folder_path):
                     else:
                         print("ERROR: Movie " + movieTitle + " could not be found on OMDb or API reached limit")
             
-            else:
-                print("OMDb file already created")
+            #else:
+                #print("OMDb file already created")
 
 
             
