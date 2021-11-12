@@ -2,9 +2,17 @@ from __future__ import print_function
 import urllib.request
 import json
 import os 
+import urllib.parse
+
 
 def is_ascii(s):
     return all(ord(c) < 128 for c in s)
+
+def getSafeString(s):
+    return urllib.parse.quote_plus(s)
+
+
+    
 
 def getOmdbMovie(movie_folder_path):
 
@@ -23,21 +31,22 @@ def getOmdbMovie(movie_folder_path):
 
 
 
+
         if 'release_date' not in jsonObj:
-            print("ERROR: Movie " + movieTitle + " has no release_date available")
+            print("ERROR: " + movieTitle + " has no release_date available")
         
 
-        elif not is_ascii(movieTitle):
-            print("ERROR: the movie title is not ascii, cannot be looked on OMDb")
+        #elif not is_ascii(movieTitle):
+        #    print("ERROR: " + movieTitle + " is not ascii, cannot be looked on OMDb")
         
         else:
 
             movieDate = jsonObj['release_date']
             rawFile.close()
 
-            #keys = f2fa9863 323c392a 946648df d9437efe d097fef5
+            #keys = df31360f f2fa9863 323c392a 946648df d9437efe d097fef5 1afe7e7f b5479ba2 666383ae cc1b993a
 
-            formattedString = "http://www.omdbapi.com/" + "?apikey=d097fef5&t=" + movieTitle.replace(" ", "+") + "&y=" + movieDate[:4] + "&plot=full"
+            formattedString = "http://www.omdbapi.com/" + "?apikey=df31360f&t=" + getSafeString(movieTitle) + "&y=" + movieDate[:4] + "&plot=full"
 
 
             if not os.path.exists(movie_folder_path + "/omdbContent.txt"):
@@ -50,7 +59,7 @@ def getOmdbMovie(movie_folder_path):
                         
                         with open(movie_folder_path + "/omdbContent.txt","w") as file:
                             json.dump(page, file)
-                            print("SUCCESS - Movie " + movieTitle + " OMDb log was updated")
+                            print("SUCCESS - " + movieTitle + " OMDb log was updated")
 
                         # -----------------------------------------
 
@@ -68,7 +77,7 @@ def getOmdbMovie(movie_folder_path):
 
                         # -----------------------------------------
                     else:
-                        print("ERROR: Movie " + movieTitle + " could not be found on OMDb or API reached limit")
+                        print("ERROR: " + movieTitle + " could not be found on OMDb")
             
             #else:
                 #print("OMDb file already created")
@@ -80,9 +89,14 @@ def getOmdbMovie(movie_folder_path):
 #getOmdbMovie("Projeto/movies/DespicableMe")
 
 rootdir = "Projeto/movies"
-
 my_list = os.listdir(rootdir)
+
+
+
+
+
 
 for i in my_list:
     
     getOmdbMovie(rootdir+'/' + str(i))
+
