@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": null, "genre_ids": [16, 10751], "id": 423119, "original_language": "en", "original_title": "Dear Sofia: A Royal Collection", "overview": "", "popularity": 1.131, "poster_path": null, "release_date": "2015-09-29", "title": "Dear Sofia: A Royal Collection", "video": false, "vote_average": 10, "vote_count": 1}

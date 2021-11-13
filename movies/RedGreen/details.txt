@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": "/zHjMXRCe0KHaFkjBKQLTJqtauZx.jpg", "genre_ids": [16, 99], "id": 683302, "original_language": "en", "original_title": "Red Green", "overview": "An Eternalism film.", "popularity": 0.909, "poster_path": "/pTbPljw5Fw4zuSuRyUNOHUui0fE.jpg", "release_date": "2020-02-12", "title": "Red Green", "video": false, "vote_average": 0, "vote_count": 0}

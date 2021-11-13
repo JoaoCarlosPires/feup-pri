@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": null, "genre_ids": [16], "id": 890683, "original_language": "es", "original_title": "Yo contengo un espacio", "overview": "", "popularity": 1.986, "poster_path": null, "release_date": "2021-10-28", "title": "Yo contengo un espacio", "video": false, "vote_average": 0, "vote_count": 0}

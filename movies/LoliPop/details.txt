@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": null, "genre_ids": [16, 35], "id": 323593, "original_language": "fa", "original_title": "Loli Pop", "overview": "A story about a little girl waits for her parent in kindergarden from Teheran.", "popularity": 1.744, "poster_path": null, "release_date": "2009-02-05", "title": "Lollipop", "video": false, "vote_average": 0, "vote_count": 0}

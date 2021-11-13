@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": null, "genre_ids": [16], "id": 330932, "original_language": "en", "original_title": "Like a Dream", "overview": "A woman reflects on a past that now seems like a fading dream.", "popularity": 0.844, "poster_path": null, "release_date": "2013-01-01", "title": "Like a Dream", "video": false, "vote_average": 0, "vote_count": 0}

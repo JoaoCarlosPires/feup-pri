@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": null, "genre_ids": [16], "id": 331489, "original_language": "pl", "original_title": "Nowa Ksiazka", "overview": "Short film by Zbig Rybczy\u0144ski.", "popularity": 1.4, "poster_path": null, "release_date": "1975-06-30", "title": "New Book", "video": false, "vote_average": 6.6, "vote_count": 9}

@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": null, "genre_ids": [16, 27, 35], "id": 489591, "original_language": "ja", "original_title": "\u99d0\u8eca\u5834", "overview": "A short animation by Shintaro Kago.", "popularity": 0.924, "poster_path": "/sV4kXN0QPCLItrSMF9XeWknbkV7.jpg", "release_date": "2017-11-25", "title": "Parking", "video": false, "vote_average": 10, "vote_count": 1}

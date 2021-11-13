@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": "/eGMCEtGmyxs1JL7WkEqE36jNiDn.jpg", "genre_ids": [16], "id": 184911, "original_language": "fr", "original_title": "Le wall", "overview": "", "popularity": 0.84, "poster_path": "/2aTiytnHlSPswnEqk5lpX6RvE69.jpg", "release_date": "1992-04-10", "title": "Le wall", "video": false, "vote_average": 7, "vote_count": 1}

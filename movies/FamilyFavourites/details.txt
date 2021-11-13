@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": null, "genre_ids": [16, 35], "id": 509728, "original_language": "en", "original_title": "Family Favourites", "overview": "A hectic Christmas family get together.", "popularity": 0.84, "poster_path": "/cceqYDaWrxgMEcxkV8e9CbWZdZa.jpg", "release_date": "1993-12-01", "title": "Family Favourites", "video": false, "vote_average": 0, "vote_count": 0}

@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": "/qg24EvHCXGHGbXQKTr3fUBEE3es.jpg", "genre_ids": [16], "id": 507355, "original_language": "en", "original_title": "Paw Patrol - Game On!", "overview": "", "popularity": 0.973, "poster_path": "/fNRnpuW8CpeFEhuO8fhBljJG4Ca.jpg", "release_date": "2016-11-16", "title": "Paw Patrol - Game On!", "video": false, "vote_average": 8, "vote_count": 2}

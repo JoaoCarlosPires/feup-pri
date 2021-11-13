@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": null, "genre_ids": [16, 10751, 35], "id": 270162, "original_language": "fr", "original_title": "Garfield show time twister", "overview": "", "popularity": 1.578, "poster_path": "/3DAvdjkjjtTFsg62kSWhIgURJJh.jpg", "release_date": "2013-03-12", "title": "Garfield show time twister", "video": false, "vote_average": 10, "vote_count": 4}

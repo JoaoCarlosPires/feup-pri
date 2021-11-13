@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": "/jwPSiaLZwHl7sacvPmUKkVF1b6X.jpg", "genre_ids": [16], "id": 709382, "original_language": "ja", "original_title": "\u30bf\u30b3\u30ec\u30fc\u30bf\u30fc", "overview": "", "popularity": 1.121, "poster_path": "/eeEvh2Jy7kxvlxEctjiEYe2umhv.jpg", "release_date": "2002-11-27", "title": "Tacolator", "video": false, "vote_average": 7, "vote_count": 1}

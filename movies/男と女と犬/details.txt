@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": null, "genre_ids": [16], "id": 388642, "original_language": "ja", "original_title": "\u7537\u3068\u5973\u3068\u72ac", "overview": "Short animated film by Kuri Youji.", "popularity": 1.091, "poster_path": null, "release_date": "1963-01-01", "title": "Man and Woman and Dog", "video": false, "vote_average": 0, "vote_count": 0}

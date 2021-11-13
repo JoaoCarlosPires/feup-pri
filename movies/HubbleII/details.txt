@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": "/ph0Mo7CpKD7UmcZokudhZ299pJv.jpg", "genre_ids": [16, 99], "id": 701720, "original_language": "en", "original_title": "Hubble II", "overview": "An Eternalism film.", "popularity": 0.873, "poster_path": "/8TjDHYzHOaV2ZOLcUBUTwLE6K1d.jpg", "release_date": "2020-05-07", "title": "Hubble II", "video": false, "vote_average": 0, "vote_count": 0}

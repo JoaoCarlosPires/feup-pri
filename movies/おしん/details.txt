@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": null, "genre_ids": [16, 18], "id": 602737, "original_language": "ja", "original_title": "\u304a\u3057\u3093", "overview": "", "popularity": 1.646, "poster_path": "/ug8wfOC3Wf5FpAAvFTRF4P7fnQ2.jpg", "release_date": "1984-03-17", "title": "Oshin", "video": false, "vote_average": 0, "vote_count": 0}
