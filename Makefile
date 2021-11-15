@@ -25,5 +25,5 @@ get-tmdb-reviews:
     python tmdb-reviews.py
 
 analyse-data:
-    @echo "Getting TMDB popular animation movies information..."
-    python analyse-data.py
+    @echo "Analysing full movie dataset..."
+    python data-analysis.py
