@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": null, "genre_ids": [16], "id": 871086, "original_language": "ru", "original_title": "A Very Gripping Story", "overview": "A Grandfather tells his Grandson a very gripping story.", "popularity": 2.839, "poster_path": null, "release_date": "2021-11-01", "title": "A Very Gripping Story", "video": false, "vote_average": 0, "vote_count": 0}

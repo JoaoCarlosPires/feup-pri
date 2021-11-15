@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": "/fIRa89cGiT9xpXTZzBWKkLWEUFr.jpg", "genre_ids": [16], "id": 275858, "original_language": "sv", "original_title": "Bland Tistlar", "overview": "", "popularity": 1.4, "poster_path": "/AvU5WRqg3CVE5F5Qjnz1q9AHeWm.jpg", "release_date": "2005-01-10", "title": "Bland Tistlar", "video": false, "vote_average": 10, "vote_count": 1}

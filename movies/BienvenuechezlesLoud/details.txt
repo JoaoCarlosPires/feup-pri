@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": null, "genre_ids": [16], "id": 837800, "original_language": "en", "original_title": "Bienvenue chez les Loud", "overview": "", "popularity": 0.997, "poster_path": "/g7MWFfoekl04KLTtiJYOAWwYqXH.jpg", "release_date": "2021-06-16", "title": "Bienvenue chez les Loud", "video": false, "vote_average": 4, "vote_count": 1}

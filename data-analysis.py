@@ -1,25 +1,21 @@
 import os
-import sys
-import shutil
 import json
 from collections import Counter
 import itertools
 import re
-
 
 import numpy as np
 import matplotlib.pyplot as plt
 
 def getTmdbPlotAverage():
 
-    rootdir = "movies"
+    rootdir = os.getcwd() + "/movies"
 
     counter = 1
 
     tmdbPlotCounter = 0
     
     movieCounter = 0
-
     
     for subdir, dirs, files in os.walk(rootdir):
         if(files == ['details.txt', 'omdbContent.txt']):
@@ -35,7 +31,7 @@ def getTmdbPlotAverage():
 
 def getOmdbPlotAverage():
 
-    rootdir = "movies"
+    rootdir = os.getcwd() + "/movies"
 
     
     omdbPlotCounter = 0
@@ -62,7 +58,7 @@ def moviesPerLanguage():
 
     languages = []
 
-    rootdir = "movies"
+    rootdir = os.getcwd() + "/movies"
     for subdir, dirs, files in os.walk(rootdir):
         if(files == ['details.txt', 'omdbContent.txt']):
             f = open(subdir + '/'+files[1], 'r')
@@ -75,6 +71,8 @@ def moviesPerLanguage():
 
     return dict(sorted(word_counts.items(), key=lambda item: item[1], reverse=True))
     
+
+
 def plotMoviesPerLanguage():
     data_dict = (moviesPerLanguage())
     del data_dict["N/A"]
@@ -103,12 +101,12 @@ def plotMoviesPerLanguage():
     plt.show()
 
 def mostCommonPlotWords():
-    rootdir = "movies"
+    rootdir = os.getcwd() + "/movies"
 
     #number of words to show
     number_of_words_to_display = 200
 
-    stopwords = ['',"","i", "me", "my", "myself", "we", "our", "ours", "ourselves", "you", "your", "yours", "yourself", "yourselves", "he", "him", "his", "himself", "she", "her", "hers", "herself", "it", "its", "itself", "they", "them", "their", "theirs", "themselves", "what", "which", "who", "whom", "this", "that", "these", "those", "am", "is", "are", "was", "were", "be", "been", "being", "have", "has", "had", "having", "do", "does", "did", "doing", "a", "an", "the", "and", "but", "if", "or", "because", "as", "until", "while", "of", "at", "by", "for", "with", "about", "against", "between", "into", "through", "during", "before", "after", "above", "below", "to", "from", "up", "down", "in", "out", "on", "off", "over", "under", "again", "further", "then", "once", "here", "there", "when", "where", "why", "how", "all", "any", "both", "each", "few", "more", "most", "other", "some", "such", "no", "nor", "not", "only", "own", "same", "so", "than", "too", "very", "s", "t", "can", "will", "just", "don", "should", "now"]
+    stopwords = ["i", "me", "my", "myself", "we", "our", "ours", "ourselves", "you", "your", "yours", "yourself", "yourselves", "he", "him", "his", "himself", "she", "her", "hers", "herself", "it", "its", "itself", "they", "them", "their", "theirs", "themselves", "what", "which", "who", "whom", "this", "that", "these", "those", "am", "is", "are", "was", "were", "be", "been", "being", "have", "has", "had", "having", "do", "does", "did", "doing", "a", "an", "the", "and", "but", "if", "or", "because", "as", "until", "while", "of", "at", "by", "for", "with", "about", "against", "between", "into", "through", "during", "before", "after", "above", "below", "to", "from", "up", "down", "in", "out", "on", "off", "over", "under", "again", "further", "then", "once", "here", "there", "when", "where", "why", "how", "all", "any", "both", "each", "few", "more", "most", "other", "some", "such", "no", "nor", "not", "only", "own", "same", "so", "than", "too", "very", "s", "t", "can", "will", "just", "don", "should", "now"]
     
     words = []
 
@@ -185,7 +183,7 @@ def plotMostCommonPlotWords():
 
 
 def getAverageRuntime():
-    rootdir = "movies"
+    rootdir = os.getcwd() + "/movies"
 
     
     addition = 0
@@ -210,7 +208,7 @@ def getAverageRuntime():
 def getAvgDecade():
 
 
-    rootdir = "movies"
+    rootdir = os.getcwd() + "/movies"
     list=[]
 
     for subdir, dirs, files in os.walk(rootdir):

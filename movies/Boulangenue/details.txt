@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": null, "genre_ids": [16], "id": 895469, "original_language": "en", "original_title": "Boulangenue", "overview": "Person buys some bread.", "popularity": 2.744, "poster_path": "/y55h62mbwguzGKzO72YJPw09ADQ.jpg", "release_date": "2021-11-07", "title": "Boulangenue", "video": false, "vote_average": 0, "vote_count": 0}

@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": null, "genre_ids": [28, 16, 12], "id": 502346, "original_language": "es", "original_title": "Batman: Mad Love Motion Comic", "overview": "", "popularity": 1.541, "poster_path": "/AwAO0R5rWHeVc1Q5YO6SEVZXGsa.jpg", "release_date": "2008-06-01", "title": "Batman: Mad Love Motion Comic", "video": false, "vote_average": 9.5, "vote_count": 2}
