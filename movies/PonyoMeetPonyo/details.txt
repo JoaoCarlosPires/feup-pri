@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": "/6a1qZ1qat26mAIK3Lq8iYdGpyHm.jpg", "genre_ids": [14, 16, 12], "id": 793103, "original_language": "en", "original_title": "Ponyo: Meet Ponyo", "overview": "", "popularity": 11.858, "poster_path": "/mikKSEdk5kLhflWXbp4S5mmHsDo.jpg", "release_date": "2010-03-02", "title": "Ponyo: Meet Ponyo", "video": false, "vote_average": 6.8, "vote_count": 8}

@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": "/gaKVoY6QKPFOAlS4R95vin7hpyM.jpg", "genre_ids": [16], "id": 464588, "original_language": "it", "original_title": "L'eroe dei due mondi", "overview": "", "popularity": 0.99, "poster_path": "/ly41yqThWaUytoxl5y1eEqZwcAm.jpg", "release_date": "1994-12-23", "title": "L'eroe dei due mondi", "video": false, "vote_average": 6, "vote_count": 1}

@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": "/f8Zf9P0GufIaCHcLQBz6oeyKyb1.jpg", "genre_ids": [16], "id": 313051, "original_language": "fr", "original_title": "Monsieur T\u00eate", "overview": "", "popularity": 2.157, "poster_path": "/gnyFoIIL9NvXvBy34KK1bqUaElO.jpg", "release_date": "1959-01-01", "title": "Monsieur T\u00eate", "video": false, "vote_average": 5.9, "vote_count": 10}

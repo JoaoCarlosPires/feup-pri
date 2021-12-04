@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": "/jZRGIcy0Ez0fed6U6au9L1tQqzI.jpg", "genre_ids": [16, 10751], "id": 289004, "original_language": "es", "original_title": "A tale of two kitties", "overview": "", "popularity": 0.88, "poster_path": "/xUbgQMsUpSlee2VOo6fL7VTmqYG.jpg", "release_date": "1996-01-01", "title": "A tale of two kitties", "video": false, "vote_average": 6, "vote_count": 1}

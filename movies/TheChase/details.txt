@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": null, "genre_ids": [16], "id": 110038, "original_language": "en", "original_title": "The Chase", "overview": "A simple hitman job. Things don't go as expected.", "popularity": 1.4, "poster_path": null, "release_date": "2012-02-20", "title": "The Chase", "video": false, "vote_average": 5.1, "vote_count": 7}

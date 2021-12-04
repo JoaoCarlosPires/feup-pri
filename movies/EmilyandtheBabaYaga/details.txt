@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": null, "genre_ids": [16, 27], "id": 804359, "original_language": "en", "original_title": "Emily and the Baba Yaga", "overview": "", "popularity": 0.84, "poster_path": "/7FyXD1hRARovOiwyzlszb1CEkU9.jpg", "release_date": "", "title": "Emily and the Baba Yaga", "video": false, "vote_average": 0, "vote_count": 0}

@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": "/rgf003jDHyXv1zYXJtgTimBYD94.jpg", "genre_ids": [16], "id": 4110, "original_language": "en", "original_title": "Blondie & Dagwood", "overview": "", "popularity": 1.46, "poster_path": "/aa7fqU8krjur2xEBCSqvl5BTzir.jpg", "release_date": "1987-05-15", "title": "Blondie & Dagwood", "video": false, "vote_average": 10, "vote_count": 1}

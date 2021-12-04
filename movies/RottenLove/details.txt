@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": null, "genre_ids": [16], "id": 805063, "original_language": "en", "original_title": "Rotten Love", "overview": "A love story between a zombie and a ghost.", "popularity": 0.849, "poster_path": "/2tngeyHd1dLDphl3QLijukaGnqg.jpg", "release_date": "2016-10-09", "title": "Rotten Love", "video": false, "vote_average": 0, "vote_count": 0}

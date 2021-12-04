@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": null, "genre_ids": [16], "id": 319145, "original_language": "ja", "original_title": "Umi no Momotar\u00f4", "overview": "A early Japanese animation short.", "popularity": 1.4, "poster_path": null, "release_date": "1932-01-26", "title": "Momotaro's Underwater Adventure", "video": false, "vote_average": 5.5, "vote_count": 4}

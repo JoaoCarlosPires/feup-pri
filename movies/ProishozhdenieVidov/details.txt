@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": null, "genre_ids": [16, 36], "id": 481322, "original_language": "es", "original_title": "Proishozhdenie Vidov", "overview": "", "popularity": 0.87, "poster_path": "/uC4EJAhtfzIC7cr92QJ5eobaaAK.jpg", "release_date": "1993-01-01", "title": "Proishozhdenie Vidov", "video": false, "vote_average": 7, "vote_count": 1}

@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": null, "genre_ids": [16], "id": 147983, "original_language": "hr", "original_title": "Idu dani", "overview": "Story about a man whose environment doesn't let him live his simple life.", "popularity": 1.277, "poster_path": null, "release_date": "1969-12-06", "title": "Passing Days", "video": false, "vote_average": 5.1, "vote_count": 11}

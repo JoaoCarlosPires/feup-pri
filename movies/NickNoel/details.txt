@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": null, "genre_ids": [16, 12, 10751], "id": 234582, "original_language": "en", "original_title": "Nick & Noel", "overview": "A 1993 short Christmas film about a cat and a dog.", "popularity": 0.814, "poster_path": null, "release_date": "1993-11-25", "title": "Nick & Noel", "video": false, "vote_average": 6, "vote_count": 6}

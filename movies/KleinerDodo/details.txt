@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": "/ybfEj41eSKlblpA6DQ0QRauIrTi.jpg", "genre_ids": [16, 10751], "id": 97316, "original_language": "de", "original_title": "Kleiner Dodo", "overview": "", "popularity": 0.947, "poster_path": "/dJgZsq0Dc7wVeCQN7LXc1MSSy82.jpg", "release_date": "2007-12-31", "title": "Little Dodo", "video": false, "vote_average": 3.8, "vote_count": 2}

@@ -1,10 +1,11 @@
 PYTHON = python3
 
-.PHONY: setup collect-data analyse-data
+.PHONY: setup collect-data analyse-data get-json
 
 setup:
     pip install matplotlib
     pip install numpy
+    pip install typing-extensions
 
 collect-data: get-tmdb-data get-omdb-data remove-incomplete get-tmdb-reviews
 
@@ -27,3 +28,7 @@ get-tmdb-reviews:
 analyse-data:
     @echo "Analysing full movie dataset..."
     python data-analysis.py
+
+get-json:
+    @echo "Generating JSON file with whole movie dataset..."
+    python generate-json.py

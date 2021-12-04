@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": "/jJ9WWuvH1k16y7YFPn9VuFfPdsI.jpg", "genre_ids": [16, 18, 12, 878], "id": 857756, "original_language": "ja", "original_title": "\u6c38\u9060\u306e831", "overview": "", "popularity": 1.4, "poster_path": "/6Vw2uWT4dRYliJAxejUkYzL3Rp7.jpg", "release_date": "", "title": "The Eternal 831", "video": false, "vote_average": 0, "vote_count": 0}

@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": "/94IaClywlEh8d9UQdSpxchB26ae.jpg", "genre_ids": [16], "id": 541765, "original_language": "tr", "original_title": "Sevimli Emojiler 2", "overview": "", "popularity": 1.63, "poster_path": "/pcFcm0IxxSQhp6wZQljCtC89JvR.jpg", "release_date": "2018-06-29", "title": "The Mojicons", "video": false, "vote_average": 0, "vote_count": 0}

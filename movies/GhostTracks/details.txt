@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": "/ie4Nu3aKtZN7kSufiV489vhUPT.jpg", "genre_ids": [16], "id": 769748, "original_language": "fr", "original_title": "Ghost Tracks", "overview": "", "popularity": 0.826, "poster_path": "/rpSK9AXMY7hwzCdZq0BFts8Cm5w.jpg", "release_date": "2015-08-22", "title": "Ghost Tracks", "video": false, "vote_average": 7, "vote_count": 1}

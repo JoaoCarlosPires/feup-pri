@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": null, "genre_ids": [16], "id": 494761, "original_language": "en", "original_title": "Jeu de coudes", "overview": "A man expresses his individuality in a conformist society.", "popularity": 0.84, "poster_path": "/9W8DjkED94lNrgiu7Luc64D7mFp.jpg", "release_date": "1979-01-01", "title": "Elbowing", "video": false, "vote_average": 0, "vote_count": 0}

@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": "/jlWzQakQsisNwLNNc3sZgQNlu2B.jpg", "genre_ids": [16], "id": 628457, "original_language": "fr", "original_title": "La V\u00e9nus de Rabo", "overview": "", "popularity": 1.123, "poster_path": "/kzcCowEZpYWnYlZvsRV6z2Y4wh1.jpg", "release_date": "2010-10-15", "title": "La V\u00e9nus de Rabo", "video": false, "vote_average": 7, "vote_count": 1}

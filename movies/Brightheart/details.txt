@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": "/agRgzbw62QSAyzF1mRtNSnV9KQi.jpg", "genre_ids": [16], "id": 745086, "original_language": "en", "original_title": "Brightheart", "overview": "", "popularity": 1.236, "poster_path": "/4nEV5ryXD12mNPdBvsbvQK1qbNi.jpg", "release_date": "2020-05-01", "title": "Brightheart", "video": false, "vote_average": 9, "vote_count": 1}

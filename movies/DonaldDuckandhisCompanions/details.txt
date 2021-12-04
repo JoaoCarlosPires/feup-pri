@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": null, "genre_ids": [10751, 16, 35], "id": 169912, "original_language": "en", "original_title": "Donald Duck and his Companions", "overview": "", "popularity": 1.233, "poster_path": "/uBjCqLqu89KwcOHQTyPMrnckWKC.jpg", "release_date": "1960-01-03", "title": "Donald Duck and his Companions", "video": false, "vote_average": 8, "vote_count": 4}

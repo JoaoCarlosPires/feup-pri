@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": null, "genre_ids": [16, 36], "id": 894571, "original_language": "hu", "original_title": "Toldi", "overview": "", "popularity": 2.087, "poster_path": "/kdeJvyOsglfzdl89UfyrZy6mMwL.jpg", "release_date": "2021-09-01", "title": "Toldi", "video": false, "vote_average": 0, "vote_count": 0}

@@ -1,1 +1,0 @@
-{"adult": false, "backdrop_path": "/icMlIPgIJe12AgqTRQkO5QIvO7s.jpg", "genre_ids": [16, 10751, 35], "id": 94191, "original_language": "fr", "original_title": "Le roman de Renart", "overview": "", "popularity": 2.739, "poster_path": "/3zsgp36DvGXKNI1dmL28vfEuuRX.jpg", "release_date": "2005-05-12", "title": "Renart the Fox", "video": false, "vote_average": 6.4, "vote_count": 13}
