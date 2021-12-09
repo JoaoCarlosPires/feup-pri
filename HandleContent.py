@@ -32,7 +32,7 @@ def getMovieContent(folder):
                     if attr in parsed:
                         data[(attr)] = (parsed[attr])
                     else:
-                        data[(attr)] = "N/A"
+                        data[(attr)] = None
         handle.close()
 
                 
@@ -48,11 +48,8 @@ def getMovieContent(folder):
                     if attr in parsed:
                         data[(attr.title())] = (parsed[attr])
                     else:
-                        data[(attr.title())] = "N/A"
+                        data[(attr.title())] = None
         handle.close()
-
-
-
 
 
     else:
@@ -67,21 +64,19 @@ def getMovieContent(folder):
             lines = lines.split("\\r\\n\\r\\n")
             
             data["Reviews"] = (lines)
-
-
-            
+        
         handle.close()
     else:
-        data["Reviews"] = "N/A"
+        data["Reviews"] = None
 
-
-
-    
 
 
     if data["Overview"] == data["Plot"]:
         del data["Overview"]
 
+    for key, value in data.items():
+        if(value=="N/A"):
+            data[key] = None
 
     formattedData = doubleQuoteDict(data)
     
