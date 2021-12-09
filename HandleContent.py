@@ -14,11 +14,10 @@ class doubleQuoteDict(dict):
         return json.dumps(self)
 
 
-def getMovieContent(folder):
-
-    moviefoldername = folder.replace("Projeto/movies/", "")
-   
-    data["id"] = str(moviefoldername)
+def getMovieContent(file, folder):
+    
+    data["id"] = str(file)
+    
 
     omdb_txt = ["Title", "Rated", "Release", "Runtime", "Genre", "Director", "Writer", "Actors", "Plot", "Language", "Country", "Awards", "Poster", "Metascore", "imdbRating", "imdbVotes", "DVD", "BoxOffice", "Production", "Website"]
     tmdb_txt = ["overview", "popularity", "poster_path", "video", "vote_average", "vote_count"]
@@ -90,7 +89,7 @@ rootdir = 'Projeto/movies'
 for file in os.listdir(rootdir):
     d = os.path.join(rootdir, file)
     if os.path.isdir(d):
-        auxDict = getMovieContent(d)
+        auxDict = getMovieContent(file,d)
         finalData.append(auxDict)
         
             
