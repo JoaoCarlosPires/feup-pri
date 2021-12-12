@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": null, "genre_ids": [16], "id": 884801, "original_language": "en", "original_title": "Talking Horse Sense", "overview": "A man schemes to get rich with a talking horse.", "popularity": 1.341, "poster_path": null, "release_date": "1959-09-11", "title": "Talking Horse Sense", "video": false, "vote_average": 0, "vote_count": 0}

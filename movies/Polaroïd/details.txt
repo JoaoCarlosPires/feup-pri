@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": "/j09XZq5V3NR33XQRQ1uGlJk9dBp.jpg", "genre_ids": [16], "id": 825120, "original_language": "fr", "original_title": "Polaro\u00efd", "overview": "", "popularity": 0.995, "poster_path": null, "release_date": "2021-05-01", "title": "Polaro\u00efd", "video": false, "vote_average": 0, "vote_count": 0}

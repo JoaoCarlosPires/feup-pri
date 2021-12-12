@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": null, "genre_ids": [12, 16, 10751], "id": 337077, "original_language": "en", "original_title": "The Three Musketeers", "overview": "", "popularity": 1.83, "poster_path": "/9E9BuFdFMXD9q5UX9dPY4UbHon9.jpg", "release_date": "1992-06-01", "title": "The Three Musketeers", "video": false, "vote_average": 5.8, "vote_count": 6}

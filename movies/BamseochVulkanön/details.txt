@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": "/bmofc2bySQJY9fyahw28LKQRmPA.jpg", "genre_ids": [16, 10751, 35], "id": 691091, "original_language": "sv", "original_title": "Bamse och Vulkan\u00f6n", "overview": "", "popularity": 1.4, "poster_path": null, "release_date": "2021-12-25", "title": "Bamse och Vulkan\u00f6n", "video": false, "vote_average": 0, "vote_count": 0}

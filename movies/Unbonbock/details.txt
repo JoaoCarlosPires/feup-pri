@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": null, "genre_ids": [16], "id": 16622, "original_language": "fr", "original_title": "Un bon bock", "overview": "", "popularity": 2.328, "poster_path": "/osv0TcCymlsOucqkZBssSuS4tD.jpg", "release_date": "1892-10-28", "title": "A Good Beer", "video": false, "vote_average": 5.6, "vote_count": 5}

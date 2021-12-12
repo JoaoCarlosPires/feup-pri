@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": null, "genre_ids": [16], "id": 184402, "original_language": "de", "original_title": "Opus IV", "overview": "An abstract animation by Walter Ruttmann.", "popularity": 1.162, "poster_path": null, "release_date": "1925-04-09", "title": "Opus IV", "video": false, "vote_average": 6.2, "vote_count": 14}

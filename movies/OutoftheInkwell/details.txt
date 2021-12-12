@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": null, "genre_ids": [16, 35], "id": 285668, "original_language": "en", "original_title": "Out of the Inkwell", "overview": "Directed by Dave Fleischer.", "popularity": 0.961, "poster_path": "/u8c9XzX8iZPgZTDiNHQmOi9AfdS.jpg", "release_date": "1919-04-19", "title": "Out of the Inkwell", "video": false, "vote_average": 0, "vote_count": 0}

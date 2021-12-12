@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": null, "genre_ids": [16], "id": 215160, "original_language": "en", "original_title": "C\u0153ur de secours", "overview": "Animated short film by Piotr Kamler", "popularity": 0.835, "poster_path": "/j820gI5xHF8L8MhLvpRVxZQtpri.jpg", "release_date": "1973-06-01", "title": "The Heart", "video": false, "vote_average": 7, "vote_count": 7}

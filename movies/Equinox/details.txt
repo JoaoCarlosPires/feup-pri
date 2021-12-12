@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": null, "genre_ids": [16], "id": 658178, "original_language": "pt", "original_title": "Equinox", "overview": "", "popularity": 0.895, "poster_path": "/3wmtDz3Uk0MHG4elCTbg9uR1kcc.jpg", "release_date": "2019-05-03", "title": "Equinox", "video": false, "vote_average": 0, "vote_count": 0}

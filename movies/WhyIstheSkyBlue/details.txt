@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": null, "genre_ids": [16, 10751, 10402], "id": 896236, "original_language": "en", "original_title": "Why Is the Sky Blue?", "overview": "Why isn't it green, yellow or striped?", "popularity": 1.031, "poster_path": null, "release_date": "2001-10-01", "title": "Why Is the Sky Blue?", "video": false, "vote_average": 10, "vote_count": 1}

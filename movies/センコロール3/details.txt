@@ -1,0 +1,1 @@
+{"adult": false, "backdrop_path": "/hM0lyrj1havBgIfeCEvgJ7PuHjr.jpg", "genre_ids": [16, 28, 878], "id": 648981, "original_language": "ja", "original_title": "\u30bb\u30f3\u30b3\u30ed\u30fc\u30eb3", "overview": "", "popularity": 1.349, "poster_path": null, "release_date": "", "title": "Cencoroll 3", "video": false, "vote_average": 0, "vote_count": 0}

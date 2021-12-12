@@ -1,0 +1,218 @@
+{
+	"add-field-type": [
+        {
+            "name":"Basic",
+            "class":"solr.TextField",
+            "indexAnalyzer":{
+                "tokenizer":[
+                    {"class":"solr.StandardTokenizerFactory"}
+                ],
+                "filters":[
+                    {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
+                    {"class":"solr.LowerCaseFilterFactory"}
+                ]
+            },
+            "queryAnalyzer":{
+                "tokenizer":{
+                    "class":"solr.StandardTokenizerFactory"
+                },
+                "filters":[
+                    {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
+                    {"class":"solr.LowerCaseFilterFactory"}
+                ]
+            }
+        },
+        {
+            "name":"Global",
+            "class":"solr.TextField",
+            "indexAnalyzer":{
+                "tokenizer":[
+                    {"class":"solr.StandardTokenizerFactory"},
+                    {"class":"solr.WhitespaceTokenizerFactory"},
+                    {"class":"solr.PatternTokenizerFactory", "pattern":"[\\s]*,[\\s]*"}
+                ],
+                "filters":[
+                    {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
+                    {"class":"solr.LowerCaseFilterFactory"}
+                ]
+            },
+            "queryAnalyzer":{
+                "tokenizer":{
+                    "class":"solr.StandardTokenizerFactory"
+                },
+                "filters":[
+                    {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
+                    {"class":"solr.LowerCaseFilterFactory"}
+                ]
+            }
+        },
+
+        {
+            "name":"Long_text",
+            "class":"solr.TextField",
+            "indexAnalyzer":{
+                "tokenizer":[
+                    {"class":"solr.StandardTokenizerFactory"},
+                    {"class":"solr.WhitespaceTokenizerFactory"},
+                    {"class":"solr.PatternTokenizerFactory", "pattern":"[\\s]*,[\\s]*"}
+                ],
+                "filters":[
+                    {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
+                    {"class":"solr.LowerCaseFilterFactory"}
+                ]
+            },
+            "queryAnalyzer":{
+                "tokenizer":{
+                    "class":"solr.StandardTokenizerFactory"
+                },
+                "filters":[
+                    {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
+                    {"class":"solr.LowerCaseFilterFactory"}
+                ]
+            }
+        }
+    ],
+
+    "add-field": [
+        {
+            "name": "id",
+            "type": "Basic",
+            "indexed": true
+        },
+        {
+            "name": "movieTitle",
+            "type": "Global",
+            "indexed": true
+        },
+        {
+            "name": "Rated",
+            "type": "Global",
+            "indexed": true
+        },
+        {
+            "name": "Release",
+            "type": "Date",
+            "indexed": true
+        },
+        {
+            "name": "Runtime",
+            "type": "Basic",
+            "indexed": true
+        },
+        {
+            "name": "Genre",
+            "type": "Global",
+            "indexed": true
+        },
+        {
+            "name": "Director",
+            "type": "Global",
+            "indexed": true
+        },
+        {
+            "name": "Writer",
+            "type": "Global",
+            "indexed": true
+        },
+        {
+            "name": "Actors",
+            "type": "Global",
+            "indexed": true
+        },
+        {
+            "name": "Plot",
+            "type": "Long_text",
+            "indexed": true
+        },
+        {
+            "name": "Language",
+            "type": "Global",
+            "indexed": true
+        },
+        {
+            "name": "Country",
+            "type": "Global",
+            "indexed": true
+        },
+        {
+            "name": "Awards",
+            "type": "Global",
+            "indexed": true
+        },
+        {
+            "name": "Poster",
+            "type": "Linktype",
+            "indexed": true
+        },
+        {
+            "name": "Metascore",
+            "type": "IntFloat",
+            "indexed": true
+        },
+        {
+            "name": "imdbRating",
+            "type": "IntFloat",
+            "indexed": true
+        },
+        {
+            "name": "imdbVotes",
+            "type": "IntFloat",
+            "indexed": true
+        },
+        {
+            "name": "DVD",
+            "type": "Date",
+            "indexed": true
+        },
+        {
+            "name": "BoxOffice",
+            "type": "IntFloat",
+            "indexed": true
+        },
+        {
+            "name": "Production",
+            "type": "Basic",
+            "indexed": true
+        },
+        {
+            "name": "Website",
+            "type": "Linktype",
+            "indexed": true
+        },
+        {
+            "name": "Overview",
+            "type": "Long_text",
+            "indexed": true
+        },
+        {
+            "name": "Popularity",
+            "type": "IntFloat",
+            "indexed": true
+        },
+        {
+            "name": "Poster_path",
+            "type": "Basic",
+            "indexed": true
+        },
+        {
+            "name": "Video",
+            "type": "Basic",
+            "indexed": true
+        },
+        {
+            "name": "Vote_Average",
+            "type": "IntFloat",
+            "indexed": true
+        },
+        {
+            "name": "Vote_Count",
+            "type": "IntFloat",
+            "indexed": true
+        },
+        {
+            "name": "Reviews",
+            "type": "Long_text",
+            "indexed": true
+        }
+    ]
+}
