@@ -80,7 +80,7 @@
             "indexed": true
         },
         {
-            "name": "movieTitle",
+            "name": "Title",
             "type": "Global",
             "indexed": true
         },
