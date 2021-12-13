@@ -11,13 +11,12 @@ query = "http://localhost:8983/solr/movies/select?"
 
 # Filters and parameters
 query += "defType=edismax"
-query += "&debugQuery=true" 
 query += "&indent=true"
 query += "&q.op=OR"
 query += "&stopwords=true"
 query += "&qs=3"
 query += "&ps=2"
-query += "&tie=0.1" 
+query += "&tie=0.1"
 
 query += "&q=" + user_input
 
@@ -55,7 +54,7 @@ boost_fields = [["Awards", "oscar", "7"],
                 ["Reviews", "good", "7"],
                 ["Reviews", "excelent", "7"],
                 ["Reviews", "best", "7"],
-                ["Reviews", "recommend", "7"]]
+                ["Reviews", "recommend*", "7"]]
 for boost in boost_fields:
     query += boost[0] + "%3A" + boost[1] + "%5E" + boost[2]
     if (boost_fields.index(boost) != (len(boost_fields)-1)):

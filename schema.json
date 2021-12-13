@@ -1,7 +1,7 @@
 {
 	"add-field-type": [
         {
-            "name":"Basic",
+            "name":"Text",
             "class":"solr.TextField",
             "indexAnalyzer":{
                 "tokenizer":[
@@ -13,65 +13,17 @@
                 ]
             },
             "queryAnalyzer":{
-                "tokenizer":{
-                    "class":"solr.StandardTokenizerFactory"
-                },
-                "filters":[
-                    {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
-                    {"class":"solr.LowerCaseFilterFactory"}
-                ]
-            }
-        },
-        {
-            "name":"Global",
-            "class":"solr.TextField",
-            "indexAnalyzer":{
                 "tokenizer":[
-                    {"class":"solr.StandardTokenizerFactory"},
-                    {"class":"solr.WhitespaceTokenizerFactory"},
-                    {"class":"solr.PatternTokenizerFactory", "pattern":"[\\s]*,[\\s]*"}
+                    {"class":"solr.StandardTokenizerFactory"}
                 ],
                 "filters":[
                     {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
                     {"class":"solr.LowerCaseFilterFactory"}
                 ]
-            },
-            "queryAnalyzer":{
-                "tokenizer":{
-                    "class":"solr.StandardTokenizerFactory"
-                },
-                "filters":[
-                    {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
-                    {"class":"solr.LowerCaseFilterFactory"}
-                ]
             }
         },
         {
-            "name":"Long_text",
-            "class":"solr.TextField",
-            "indexAnalyzer":{
-                "tokenizer":[
-                    {"class":"solr.StandardTokenizerFactory"},
-                    {"class":"solr.WhitespaceTokenizerFactory"},
-                    {"class":"solr.PatternTokenizerFactory", "pattern":"[\\s]*,[\\s]*"}
-                ],
-                "filters":[
-                    {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
-                    {"class":"solr.LowerCaseFilterFactory"}
-                ]
-            },
-            "queryAnalyzer":{
-                "tokenizer":{
-                    "class":"solr.StandardTokenizerFactory"
-                },
-                "filters":[
-                    {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
-                    {"class":"solr.LowerCaseFilterFactory"}
-                ]
-            }
-        },
-        {
-            "name":"IntFloat",
+            "name":"Number",
             "class":"solr.FloatPointField",
             "indexAnalyzer":{
                 "tokenizer":[
@@ -82,9 +34,10 @@
                 ]
             },
             "queryAnalyzer":{
-                "tokenizer":{
-                    "class":"solr.StandardTokenizerFactory"
-                },
+                "tokenizer":[
+                    {"class":"solr.StandardTokenizerFactory"},
+                    {"class":"solr.WhitespaceTokenizerFactory"}
+                ],
                 "filters":[
                 ]
             }
@@ -94,22 +47,21 @@
             "class":"solr.DateRangeField",
             "indexAnalyzer":{
                 "tokenizer":[
-                    {"class":"solr.StandardTokenizerFactory"},
-                    {"class":"solr.WhitespaceTokenizerFactory"}
+                    {"class":"solr.StandardTokenizerFactory"}
                 ],
                 "filters":[
                 ]
             },
             "queryAnalyzer":{
-                "tokenizer":{
-                    "class":"solr.StandardTokenizerFactory"
-                },
+                "tokenizer":[
+                    {"class":"solr.StandardTokenizerFactory"}
+                ],
                 "filters":[
                 ]
             }
         },
         {
-            "name":"Linktype",
+            "name":"Link",
             "class":"solr.TextField",
             "indexAnalyzer":{
                 "tokenizer":[
@@ -120,9 +72,10 @@
                 ]
             },
             "queryAnalyzer":{
-                "tokenizer":{
-                    "class":"solr.StandardTokenizerFactory"
-                },
+                "tokenizer":[
+                    {"class":"solr.StandardTokenizerFactory"},
+                    {"class":"solr.WhitespaceTokenizerFactory"}
+                ],
                 "filters":[
                 ]
             }
@@ -132,17 +85,17 @@
     "add-field": [
         {
             "name": "id",
-            "type": "Basic",
+            "type": "Text",
             "indexed": true
         },
         {
             "name": "Title",
-            "type": "Global",
+            "type": "Text",
             "indexed": true
         },
         {
             "name": "Rated",
-            "type": "Global",
+            "type": "Text",
             "indexed": true
         },
         {
@@ -152,67 +105,67 @@
         },
         {
             "name": "Runtime",
-            "type": "Basic",
+            "type": "Text",
             "indexed": true
         },
         {
             "name": "Genre",
-            "type": "Global",
+            "type": "Text",
             "indexed": true
         },
         {
             "name": "Director",
-            "type": "Global",
+            "type": "Text",
             "indexed": true
         },
         {
             "name": "Writer",
-            "type": "Global",
+            "type": "Text",
             "indexed": true
         },
         {
             "name": "Actors",
-            "type": "Global",
+            "type": "Text",
             "indexed": true
         },
         {
             "name": "Plot",
-            "type": "Long_text",
+            "type": "Text",
             "indexed": true
         },
         {
             "name": "Language",
-            "type": "Global",
+            "type": "Text",
             "indexed": true
         },
         {
             "name": "Country",
-            "type": "Global",
+            "type": "Text",
             "indexed": true
         },
         {
             "name": "Awards",
-            "type": "Global",
+            "type": "Text",
             "indexed": true
         },
         {
             "name": "Poster",
-            "type": "Linktype",
+            "type": "Text",
             "indexed": true
         },
         {
             "name": "Metascore",
-            "type": "IntFloat",
+            "type": "Number",
             "indexed": true
         },
         {
             "name": "imdbRating",
-            "type": "IntFloat",
+            "type": "Number",
             "indexed": true
         },
         {
             "name": "imdbVotes",
-            "type": "IntFloat",
+            "type": "Number",
             "indexed": true
         },
         {
@@ -222,52 +175,52 @@
         },
         {
             "name": "BoxOffice",
-            "type": "IntFloat",
+            "type": "Number",
             "indexed": true
         },
         {
             "name": "Production",
-            "type": "Basic",
+            "type": "Text",
             "indexed": true
         },
         {
             "name": "Website",
-            "type": "Linktype",
+            "type": "Link",
             "indexed": true
         },
         {
             "name": "Overview",
-            "type": "Long_text",
+            "type": "Text",
             "indexed": true
         },
         {
             "name": "Popularity",
-            "type": "IntFloat",
+            "type": "Number",
             "indexed": true
         },
         {
             "name": "Poster_path",
-            "type": "Basic",
+            "type": "Link",
             "indexed": true
         },
         {
             "name": "Video",
-            "type": "Basic",
+            "type": "Text",
             "indexed": true
         },
         {
             "name": "Vote_Average",
-            "type": "IntFloat",
+            "type": "Number",
             "indexed": true
         },
         {
             "name": "Vote_Count",
-            "type": "IntFloat",
+            "type": "Number",
             "indexed": true
         },
         {
             "name": "Reviews",
-            "type": "Long_text",
+            "type": "Text",
             "indexed": true
         }
     ]
