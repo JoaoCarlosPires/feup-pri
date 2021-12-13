@@ -52,7 +52,7 @@ query += "&bq="
 boost_fields = [["Awards", "oscar", "7"],
                 ["Awards", "nom*", "6"],
                 ["Reviews", "good", "7"],
-                ["Reviews", "excelent", "7"],
+                ["Reviews", "excellent", "7"],
                 ["Reviews", "best", "7"],
                 ["Reviews", "recommend*", "7"]]
 for boost in boost_fields:
