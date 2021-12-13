@@ -46,7 +46,6 @@
                 ]
             }
         },
-
         {
             "name":"Long_text",
             "class":"solr.TextField",
@@ -68,6 +67,63 @@
                 "filters":[
                     {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
                     {"class":"solr.LowerCaseFilterFactory"}
+                ]
+            }
+        },
+        {
+            "name":"IntFloat",
+            "class":"solr.FloatPointField",
+            "indexAnalyzer":{
+                "tokenizer":[
+                    {"class":"solr.StandardTokenizerFactory"},
+                    {"class":"solr.WhitespaceTokenizerFactory"}
+                ],
+                "filters":[
+                ]
+            },
+            "queryAnalyzer":{
+                "tokenizer":{
+                    "class":"solr.StandardTokenizerFactory"
+                },
+                "filters":[
+                ]
+            }
+        },
+        {
+            "name":"Date",
+            "class":"solr.DateRangeField",
+            "indexAnalyzer":{
+                "tokenizer":[
+                    {"class":"solr.StandardTokenizerFactory"},
+                    {"class":"solr.WhitespaceTokenizerFactory"}
+                ],
+                "filters":[
+                ]
+            },
+            "queryAnalyzer":{
+                "tokenizer":{
+                    "class":"solr.StandardTokenizerFactory"
+                },
+                "filters":[
+                ]
+            }
+        },
+        {
+            "name":"Linktype",
+            "class":"solr.TextField",
+            "indexAnalyzer":{
+                "tokenizer":[
+                    {"class":"solr.StandardTokenizerFactory"},
+                    {"class":"solr.WhitespaceTokenizerFactory"}
+                ],
+                "filters":[
+                ]
+            },
+            "queryAnalyzer":{
+                "tokenizer":{
+                    "class":"solr.StandardTokenizerFactory"
+                },
+                "filters":[
                 ]
             }
         }
