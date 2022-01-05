@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <title>Search Results</title>
+  </head>
+  <body>
+    {% for movie in json %}
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2>{{movie.Title.0}}</h2> 
+            <img src="{{movie.Poster.0}}">
+
+            {% if movie.Rated != null %}
+            <p>Rated: {{movie.Rated.0}}</p>
+            {% endif %}
+            
+            {% if movie.Runtime != null %}
+            <p>Runtime: {{movie.Runtime.0}}</p> 
+            {% endif %}
+            
+            {% if movie.Genre != null %}
+            <p>Genre(s):
+            {% for genre in movie.Genre %}
+             {{genre}} 
+             {% endfor %}
+            </p> 
+            {% endif %}
+
+            {% if movie.Director != null %}
+            <p>Director(s):
+            {% for director in movie.Director %}
+             {{director}} 
+             {% endfor %}
+            </p> 
+            {% endif %}
+            
+            <p>Writer(s): {{movie.Writer}}</p>            
+            <p>Actor(s): {{movie.Actors}}</p> 
+            <p>Plot: {{movie.Plot.0}}</p> 
+            <p>Language: {{movie.Language.0}}</p> 
+            <p>Country: {{movie.Country.0}}</p> 
+            <p>Awards: {{movie.Awards}}</p> 
+            <p>Metascore: {{movie.Metascore}}</p> 
+            <p>imdbRating: {{movie.imdbRating.0}}</p> 
+            <p>imdbVotes: {{movie.imdbVotes.0}}</p> 
+            <p>DVD: {{movie.DVD}}</p> 
+            <p>BoxOffice: {{movie.BoxOffice}}</p> 
+            <p>Popularity: {{movie.Popularity.0}}</p> 
+            <p>Video: {{movie.Video.0}}</p>
+            <p>Vote_Average: {{movie.Vote_Average.0}}</p>
+            <p>Vote_Count: {{movie.Vote_Count.0}}</p>
+            <p>Reviews: {{ movie.Reviews}}</p>            
+            <p>Overview: {{movie.Overview}}</p> 
+            <p>Version: {{movie.Version}}</p> 
+        </div>
+    </div>
+    <hr class="featurette-divider">
+    {% endfor %}
+  </body>
+</html>

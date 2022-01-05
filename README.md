@@ -14,7 +14,7 @@ docker build . -t movies
 docker run -p 8983:8983 movies
 ```
 
-3. Open http://localhost:8983 to use Solr **OR** run the query.py script using ```python3 query.py``` and inserting the text query right after (e.g. "toys that have life").
+3. Open http://localhost:8983 to use Solr **OR** Run the query.py script using ```python3 query.py``` and then open [templates/search.html](templates/search.html) on your browser to use the GUI
 
 ## Reference links
 
