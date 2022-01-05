@@ -74,7 +74,7 @@ def login():
         response = urlopen(query)
         json_response = json.loads(response.read())
 
-        return render_template('results.html', json=json_response['response']['docs'])
+        return render_template('results.html', json=json_response['response']['docs'], user_query=text)
     else:
         return render_template('search.html')
 
