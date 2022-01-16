@@ -1,21 +1,21 @@
 {
 	"add-field-type": [
         {
-            "name":"Text",
+            "name":"text",
             "class":"solr.TextField",
             "indexAnalyzer":{
-                "tokenizer":[
+                "tokenizer":
                     {"class":"solr.StandardTokenizerFactory"}
-                ],
+                ,
                 "filters":[
                     {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
                     {"class":"solr.LowerCaseFilterFactory"}
                 ]
             },
             "queryAnalyzer":{
-                "tokenizer":[
+                "tokenizer":
                     {"class":"solr.StandardTokenizerFactory"}
-                ],
+                ,
                 "filters":[
                     {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
                     {"class":"solr.LowerCaseFilterFactory"}
@@ -23,60 +23,46 @@
             }
         },
         {
-            "name":"Number",
+            "name":"number",
             "class":"solr.FloatPointField",
             "indexAnalyzer":{
                 "tokenizer":[
                     {"class":"solr.StandardTokenizerFactory"},
                     {"class":"solr.WhitespaceTokenizerFactory"}
-                ],
-                "filters":[
                 ]
             },
             "queryAnalyzer":{
                 "tokenizer":[
                     {"class":"solr.StandardTokenizerFactory"},
                     {"class":"solr.WhitespaceTokenizerFactory"}
-                ],
-                "filters":[
                 ]
             }
         },
         {
-            "name":"Date",
+            "name":"date",
             "class":"solr.DateRangeField",
             "indexAnalyzer":{
-                "tokenizer":[
+                "tokenizer":
                     {"class":"solr.StandardTokenizerFactory"}
-                ],
-                "filters":[
-                ]
             },
             "queryAnalyzer":{
-                "tokenizer":[
+                "tokenizer":
                     {"class":"solr.StandardTokenizerFactory"}
-                ],
-                "filters":[
-                ]
             }
         },
         {
-            "name":"Link",
+            "name":"link",
             "class":"solr.TextField",
             "indexAnalyzer":{
                 "tokenizer":[
                     {"class":"solr.StandardTokenizerFactory"},
                     {"class":"solr.WhitespaceTokenizerFactory"}
-                ],
-                "filters":[
                 ]
             },
             "queryAnalyzer":{
                 "tokenizer":[
                     {"class":"solr.StandardTokenizerFactory"},
                     {"class":"solr.WhitespaceTokenizerFactory"}
-                ],
-                "filters":[
                 ]
             }
         }
@@ -84,142 +70,142 @@
     "add-field": [
         {
             "name": "id",
-            "type": "Text",
-            "indexed": true
+            "type": "text",
+            "indexed": false
         },
         {
             "name": "Title",
-            "type": "Text",
+            "type": "text",
             "indexed": true
         },
         {
             "name": "Rated",
-            "type": "Text",
+            "type": "text",
             "indexed": true
         },
         {
             "name": "Release",
-            "type": "Date",
-            "indexed": true
+            "type": "date",
+            "indexed": false
         },
         {
             "name": "Runtime",
-            "type": "Text",
-            "indexed": true
+            "type": "text",
+            "indexed": false
         },
         {
             "name": "Genre",
-            "type": "Text",
-            "indexed": true
+            "type": "text",
+            "indexed": false
         },
         {
             "name": "Director",
-            "type": "Text",
+            "type": "text",
             "indexed": true
         },
         {
             "name": "Writer",
-            "type": "Text",
+            "type": "text",
             "indexed": true
         },
         {
             "name": "Actors",
-            "type": "Text",
+            "type": "text",
             "indexed": true
         },
         {
             "name": "Plot",
-            "type": "Text",
+            "type": "text",
             "indexed": true
         },
         {
             "name": "Language",
-            "type": "Text",
+            "type": "text",
             "indexed": true
         },
         {
             "name": "Country",
-            "type": "Text",
+            "type": "text",
             "indexed": true
         },
         {
             "name": "Awards",
-            "type": "Text",
+            "type": "text",
             "indexed": true
         },
         {
             "name": "Poster",
-            "type": "Text",
-            "indexed": true
+            "type": "text",
+            "indexed": false
         },
         {
             "name": "Metascore",
-            "type": "Number",
-            "indexed": true
+            "type": "number",
+            "indexed": false
         },
         {
             "name": "imdbRating",
-            "type": "Number",
-            "indexed": true
+            "type": "number",
+            "indexed": false
         },
         {
             "name": "imdbVotes",
-            "type": "Number",
-            "indexed": true
+            "type": "number",
+            "indexed": false
         },
         {
             "name": "DVD",
-            "type": "Date",
-            "indexed": true
+            "type": "date",
+            "indexed": false
         },
         {
             "name": "BoxOffice",
-            "type": "Number",
-            "indexed": true
+            "type": "number",
+            "indexed": false
         },
         {
             "name": "Production",
-            "type": "Text",
+            "type": "text",
             "indexed": true
         },
         {
             "name": "Website",
-            "type": "Link",
-            "indexed": true
+            "type": "link",
+            "indexed": false
         },
         {
             "name": "Overview",
-            "type": "Text",
+            "type": "text",
             "indexed": true
         },
         {
             "name": "Popularity",
-            "type": "Number",
-            "indexed": true
+            "type": "number",
+            "indexed": false
         },
         {
             "name": "Poster_path",
-            "type": "Link",
-            "indexed": true
+            "type": "link",
+            "indexed": false
         },
         {
             "name": "Video",
-            "type": "Text",
-            "indexed": true
+            "type": "text",
+            "indexed": false
         },
         {
             "name": "Vote_Average",
-            "type": "Number",
-            "indexed": true
+            "type": "number",
+            "indexed": false
         },
         {
             "name": "Vote_Count",
-            "type": "Number",
-            "indexed": true
+            "type": "number",
+            "indexed": false
         },
         {
             "name": "Reviews",
-            "type": "Text",
+            "type": "text",
             "indexed": true
         }
     ]

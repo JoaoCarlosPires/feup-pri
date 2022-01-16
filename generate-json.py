@@ -76,5 +76,7 @@ for file in os.listdir(rootdir):
 #dd = (getMovieContent("movies/MonstersInc"))
 #print(dd)
 
+unique = { each['Title'] : each for each in finalData }.values()
+
 with open('data.json', 'w') as fp:
-    fp.write(str(finalData))
+    fp.write(str(unique))

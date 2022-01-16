@@ -27,6 +27,7 @@ def login():
         query += "&qs=3"
         query += "&ps=2"
         query += "&tie=0.1"
+        query += "&rows=2147483647"
 
         query += "&q=" + user_input
 

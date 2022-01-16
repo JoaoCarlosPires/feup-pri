@@ -17,7 +17,13 @@
         {% for movie in json %}
         <div class="col-md-3 text-center">
           <h3 class="card-body flex-column h-20 text-truncate" style="max-width: 500px; text-align: center">{{movie.Title.0}}</h3> 
+          
+          {% if movie.Poster != null %}
           <img class="img-thumbnail" style="width: 400px; height: 350px;" src="{{movie.Poster.0}}">
+          {% else %}
+          <img class="img-thumbnail" style="width: 400px; height: 350px;" src="https://cloud.filmfed.com/defaults/movie-poster/m_movie_poster_default.png">
+          {% endif %}
+
           <button type="button" class="btn btn-primary" style="margin-top:10px" data-toggle="modal" data-target="#exampleModal{{movie.id}}">Details</button>
         </div>
 
