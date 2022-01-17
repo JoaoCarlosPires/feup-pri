@@ -2,9 +2,28 @@ from types import resolve_bases
 from urllib.request import urlopen
 import json
 from flask import Flask, request, render_template
+from googletrans import Translator
 
+translator = Translator()
 app = Flask(__name__)
-  
+
+def translate(text, destlanguage="en"):
+    #translates the 'text' to the desired language - english by default
+    result = translator.translate(text, dest=destlanguage)
+    return result.text
+
+def recognize_original_language(text):
+    #returns the 'text' language
+    result = translator.translate(text)
+    return result.src
+
+def translate_list_of_words(list, destlanguage="en"):
+    #translates list of words to the desired language - english by default
+    newlist = []
+    for i in list:
+        newlist.append(translate(i, destlanguage))
+    return newlist
+
 @app.route('/',methods = ['POST', 'GET'])
 def login():
     if request.method == 'POST':
@@ -13,8 +32,10 @@ def login():
       text = request.args.get('user_query')
 
     if text != '':
+        translated_text = translate(text)
+
         # Get user query / search
-        user_input = text.replace(" ", "%20")
+        user_input = translated_text.replace(" ", "%20")
 
         # Base url
         query = "http://localhost:8983/solr/movies/select?"
@@ -75,7 +96,7 @@ def login():
         response = urlopen(query)
         json_response = json.loads(response.read())
 
-        return render_template('results.html', json=json_response['response']['docs'], user_query=text)
+        return render_template('results.html', json=json_response['response']['docs'], user_query=translated_text)
     else:
         return render_template('search.html')
 
