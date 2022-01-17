@@ -28,7 +28,7 @@ make solr-gui
 
 ---
 
-**Note:** If you don't have ``Flask``, ```googletrans`` or ``sparqlwrapper`` installed, just type
+**Note:** If you don't have ``Flask``, ``googletrans`` or ``sparqlwrapper`` installed, just type
 
 ```console
 make setup
