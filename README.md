@@ -1,6 +1,6 @@
 # feup-pri
 
-## How to start Solr with the schema and collections uploaded
+## How to start Solr with the schema and collections uploaded and use the GUI
 
 ### 1. Start by build the docker image with:
 
