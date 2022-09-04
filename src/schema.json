@@ -1,0 +1,212 @@
+{
+	"add-field-type": [
+        {
+            "name":"text",
+            "class":"solr.TextField",
+            "indexAnalyzer":{
+                "tokenizer":
+                    {"class":"solr.StandardTokenizerFactory"}
+                ,
+                "filters":[
+                    {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
+                    {"class":"solr.LowerCaseFilterFactory"}
+                ]
+            },
+            "queryAnalyzer":{
+                "tokenizer":
+                    {"class":"solr.StandardTokenizerFactory"}
+                ,
+                "filters":[
+                    {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
+                    {"class":"solr.LowerCaseFilterFactory"}
+                ]
+            }
+        },
+        {
+            "name":"number",
+            "class":"solr.FloatPointField",
+            "indexAnalyzer":{
+                "tokenizer":[
+                    {"class":"solr.StandardTokenizerFactory"},
+                    {"class":"solr.WhitespaceTokenizerFactory"}
+                ]
+            },
+            "queryAnalyzer":{
+                "tokenizer":[
+                    {"class":"solr.StandardTokenizerFactory"},
+                    {"class":"solr.WhitespaceTokenizerFactory"}
+                ]
+            }
+        },
+        {
+            "name":"date",
+            "class":"solr.DateRangeField",
+            "indexAnalyzer":{
+                "tokenizer":
+                    {"class":"solr.StandardTokenizerFactory"}
+            },
+            "queryAnalyzer":{
+                "tokenizer":
+                    {"class":"solr.StandardTokenizerFactory"}
+            }
+        },
+        {
+            "name":"link",
+            "class":"solr.TextField",
+            "indexAnalyzer":{
+                "tokenizer":[
+                    {"class":"solr.StandardTokenizerFactory"},
+                    {"class":"solr.WhitespaceTokenizerFactory"}
+                ]
+            },
+            "queryAnalyzer":{
+                "tokenizer":[
+                    {"class":"solr.StandardTokenizerFactory"},
+                    {"class":"solr.WhitespaceTokenizerFactory"}
+                ]
+            }
+        }
+    ],
+    "add-field": [
+        {
+            "name": "id",
+            "type": "text",
+            "indexed": false
+        },
+        {
+            "name": "Title",
+            "type": "text",
+            "indexed": true
+        },
+        {
+            "name": "Rated",
+            "type": "text",
+            "indexed": true
+        },
+        {
+            "name": "Release",
+            "type": "date",
+            "indexed": false
+        },
+        {
+            "name": "Runtime",
+            "type": "text",
+            "indexed": false
+        },
+        {
+            "name": "Genre",
+            "type": "text",
+            "indexed": false
+        },
+        {
+            "name": "Director",
+            "type": "text",
+            "indexed": true
+        },
+        {
+            "name": "Writer",
+            "type": "text",
+            "indexed": true
+        },
+        {
+            "name": "Actors",
+            "type": "text",
+            "indexed": true
+        },
+        {
+            "name": "Plot",
+            "type": "text",
+            "indexed": true
+        },
+        {
+            "name": "Language",
+            "type": "text",
+            "indexed": true
+        },
+        {
+            "name": "Country",
+            "type": "text",
+            "indexed": true
+        },
+        {
+            "name": "Awards",
+            "type": "text",
+            "indexed": true
+        },
+        {
+            "name": "Poster",
+            "type": "text",
+            "indexed": false
+        },
+        {
+            "name": "Metascore",
+            "type": "number",
+            "indexed": false
+        },
+        {
+            "name": "imdbRating",
+            "type": "number",
+            "indexed": false
+        },
+        {
+            "name": "imdbVotes",
+            "type": "number",
+            "indexed": false
+        },
+        {
+            "name": "DVD",
+            "type": "date",
+            "indexed": false
+        },
+        {
+            "name": "BoxOffice",
+            "type": "number",
+            "indexed": false
+        },
+        {
+            "name": "Production",
+            "type": "text",
+            "indexed": true
+        },
+        {
+            "name": "Website",
+            "type": "link",
+            "indexed": false
+        },
+        {
+            "name": "Overview",
+            "type": "text",
+            "indexed": true
+        },
+        {
+            "name": "Popularity",
+            "type": "number",
+            "indexed": false
+        },
+        {
+            "name": "Poster_path",
+            "type": "link",
+            "indexed": false
+        },
+        {
+            "name": "Video",
+            "type": "text",
+            "indexed": false
+        },
+        {
+            "name": "Vote_Average",
+            "type": "number",
+            "indexed": false
+        },
+        {
+            "name": "Vote_Count",
+            "type": "number",
+            "indexed": false
+        },
+        {
+            "name": "Reviews",
+            "type": "text",
+            "indexed": true
+        }
+    ]
+}
